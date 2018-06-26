@@ -1,0 +1,24 @@
+{
+  "name": "nubank-open-bill",
+  "version": "1.0.0",
+  "description": "Extracts charges in open bills from Nubank to OFX format.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ofx",
+    "nubank"
+  ],
+  "author": "Rafael Pierri",
+  "license": "MIT",
+  "dependencies": {
+    "aguid": "^2.0.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "puppeteer": "^1.5.0"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
